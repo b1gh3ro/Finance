@@ -47,7 +47,7 @@ export function CategoryChart() {
               stroke="none"
               isAnimationActive={false} // Disable animation to prevent visual bugs when swapping data quickly
             >
-              {dynamicCategories.length > 0 ? dynamicCategories.map((entry, index) => (
+              {dynamicCategories.length > 0 ? dynamicCategories.map((_, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               )) : (
                 <Cell fill={isDark ? '#334155' : '#E2E8F0'} />

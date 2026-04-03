@@ -35,5 +35,22 @@ The objective was to design a professional, minimalistic web-based interface mod
    ```
 5. Navigate to the provided local URL (typically `http://localhost:5173`).
 
+## Live Preview
+*(Optional: If hosted, you can include a live deployment link here!)*
+[View Live Demo](#) (Link to be added upon deployment)
+
+## Screenshots & How it Works
+
+**1. Dashboard & Data Visualization**
+![Dashboard View](https://via.placeholder.com/800x400?text=Dashboard+Overview)
+*The main view presents aggregate financial metrics and an interactive Recharts balance graph. The UI reacts instantly to window resizing and Dark/Light mode toggling.*
+
+**2. Transactions & Search**
+![Transactions View](https://via.placeholder.com/800x400?text=Transactions+and+Search)
+*Users can search past transactions dynamically. Filtering state is handled responsively.*
+
+**3. Role-Based Access Control (Admin vs Viewer)**
+![RBAC Tools](https://via.placeholder.com/800x400?text=Admin+Controls)
+*When switched to the "Admin" role via the persistent sidebar, new privileged controls (like the 'Delete' and 'Add Transaction' buttons) smoothly animate into the DOM, governed by pure Zustand global state.*
+
 ---
-Built with precision and care for the Internship assignment.

@@ -1,4 +1,6 @@
-# Nexus Fin - Premium Finance Dashboard
+# Nexus Fin - Premium Finance Dashboard 
+
+Link: https://finance-psi-puce.vercel.app/
 
 A clean, highly readable, and interactive frontend finance dashboard built to evaluate frontend development, application state handle, and architectural simplicity.
 
@@ -36,21 +38,28 @@ The objective was to design a professional, minimalistic web-based interface mod
 5. Navigate to the provided local URL (typically `http://localhost:5173`).
 
 ## Live Preview
-*(Optional: If hosted, you can include a live deployment link here!)*
-[View Live Demo](#) (Link to be added upon deployment)
+[View Live Demo](https://finance-psi-puce.vercel.app/) 
 
 ## Screenshots & How it Works
 
 **1. Dashboard & Data Visualization**
-![Dashboard View](https://via.placeholder.com/800x400?text=Dashboard+Overview)
+<img width="1911" height="1027" alt="image" src="https://github.com/user-attachments/assets/5fafae37-3f93-45a6-b819-5ae44661064b" /><img width="1909" height="1022" alt="image" src="https://github.com/user-attachments/assets/4e8a1fef-aad4-4eca-9845-84a6c5966a8f" />
+<img width="1916" height="1027" alt="image" src="https://github.com/user-attachments/assets/5cd36e1a-f424-4348-90d3-99783d0cc23b" />
+
+
 *The main view presents aggregate financial metrics and an interactive Recharts balance graph. The UI reacts instantly to window resizing and Dark/Light mode toggling.*
 
 **2. Transactions & Search**
-![Transactions View](https://via.placeholder.com/800x400?text=Transactions+and+Search)
+<img width="1899" height="1032" alt="image" src="https://github.com/user-attachments/assets/fc6c190f-d578-4557-b5e6-0ad03593c59f" /><img width="1893" height="1030" alt="image" src="https://github.com/user-attachments/assets/70dd09dd-5a76-4a84-a634-d3af10bbbc64" />
+
+<img width="1916" height="1037" alt="image" src="https://github.com/user-attachments/assets/a12e7332-0f55-4e81-9b83-c84b638cf91f" />
+
+
 *Users can search past transactions dynamically. Filtering state is handled responsively.*
 
 **3. Role-Based Access Control (Admin vs Viewer)**
-![RBAC Tools](https://via.placeholder.com/800x400?text=Admin+Controls)
+<img width="1890" height="1022" alt="image" src="https://github.com/user-attachments/assets/b62f02aa-60f6-4414-83b8-a44b34f6d7ea" />
+
 *When switched to the "Admin" role via the persistent sidebar, new privileged controls (like the 'Delete' and 'Add Transaction' buttons) smoothly animate into the DOM, governed by pure Zustand global state.*
 
 ---
